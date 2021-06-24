@@ -21,6 +21,10 @@ img{
 .pd-top{
     padding-top: 50px;
 }
+
+.br-img{
+    border-radius: 15px;
+}
 /* main */
 
 #jumbo-1{
