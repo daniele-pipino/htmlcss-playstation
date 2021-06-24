@@ -1,9 +1,12 @@
+header{
+    width: 100%;
+    position: fixed;
+}
 
 .top-header{
     background-color: black;
     height: 30px;
     width: 100%;
-    position: fixed;
     padding-right: 10px;
 }
 
@@ -14,3 +17,4 @@
 img{
     width: 100%;
 }
+
