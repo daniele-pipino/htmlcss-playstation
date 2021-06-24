@@ -1,21 +1,16 @@
 
-
 .top-header{
     background-color: black;
     height: 30px;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    padding-right: 10px;
 }
 
-.navbar{
-    height: 100px;
+.top-header-img img{
+    width: 50px;
+}
+
+img{
     width: 100%;
-    background-color: bisque;
-    position: fixed;
-}
-
-#hero-section{
-    background-color: aqua;
-    height: 500px;
 }
