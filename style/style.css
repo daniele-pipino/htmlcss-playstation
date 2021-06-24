@@ -18,3 +18,22 @@ img{
     width: 100%;
 }
 
+.pd-top{
+    padding-top: 50px;
+}
+/* main */
+
+#jumbo-1{
+    padding-top: 90px;
+}
+
+.jumbo-bg{
+    height: 60vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.returnal-logo{
+    width: 200px;
+}
