@@ -36,7 +36,7 @@ img{
 }
 
 .jumbo-bg{
-    height: 60vh;
+    
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -46,4 +46,13 @@ img{
     width: 200px;
 }
 
+.jumbo-bg-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.it-two-logo{
+    width: 250px;
+}
 
