@@ -3,6 +3,7 @@
 header{
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .top-header{
@@ -28,7 +29,9 @@ img{
     border-radius: 15px;
 }
 
-
+.bd-0{
+    border: 0;
+}
 /* main */
 
 #jumbo-1{
