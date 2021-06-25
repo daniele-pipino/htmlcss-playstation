@@ -1,5 +1,6 @@
-
-
+body{
+    overflow-y: auto;
+}
 header{
     width: 100%;
     position: fixed;
@@ -45,8 +46,8 @@ img{
     background-position: center;
 }
 
-.returnal-logo{
-    width: 200px;
+.logo{
+    width: 250px;
 }
 
 .jumbo-bg-2{
@@ -55,7 +56,10 @@ img{
     background-position: center;
 }
 
-.it-two-logo{
-    width: 250px;
+.bg-grey{
+    background-color: lightgrey;
 }
 
+.h-100{
+    height: 100%;
+}
