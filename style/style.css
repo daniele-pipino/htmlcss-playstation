@@ -1,6 +1,7 @@
 body{
     overflow-y: auto;
 }
+/* ---header---- */
 header{
     width: 100%;
     position: fixed;
@@ -17,7 +18,13 @@ header{
 .top-header-img img{
     width: 50px;
 }
+/* ----hover header--- */
 
+.btn-hover:hover{
+    border: 1px solid grey;
+}
+
+/* ----utilities----- */
 img{
     width: 100%;
 }
@@ -33,14 +40,16 @@ img{
 .bd-0{
     border: 0;
 }
+.bandw{
+    filter:opacity(0.6);
+}
 /* main */
 
 #jumbo-1{
     padding-top: 90px;
 }
 
-.jumbo-bg{
-    
+.jumbo-bg{   
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -48,6 +57,14 @@ img{
 
 .logo{
     width: 250px;
+}
+.h-scale:hover{
+    transform: translateY(-20px);
+    transition: transform 0.7s;
+}
+
+.active{
+    border-bottom: 1px solid skyblue;
 }
 
 .jumbo-bg-2{
@@ -60,16 +77,28 @@ img{
     background-color: lightgrey;
 }
 
-
-
 .bg-blue{
     background-color: rgb(15, 15, 112);
+}
+/* -----main hover---- */
+
+.bandw:hover{
+    filter: opacity(1);
+    transition: filter 1s;
 }
 
 /* footer */
 .footer-bg{
     background-color: #03449b;
 }
+
 .footer-logo{
     width: 100px;
+}
+.f-col a{
+    text-decoration: none;
+}
+
+.f-col a:hover{
+    text-decoration: underline;
 }
