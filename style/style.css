@@ -33,14 +33,17 @@ header{
     padding: 1px;
     border: 3px solid rgb(0, 102, 255);
 }
+
+
 /* -----navbar---- */
 .nav-item .nav-link{
     color: black;
 }
 
-.nav-item .text-hover-blue:hover{
-    color: blue;
-}
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 102, 255)!important;
+    
+ }
 
 /* ----utilities----- */
 img{
