@@ -18,12 +18,7 @@ header{
 .top-header-img img{
     width: 50px;
 }
-/* ----hover header--- */
-
-.navbar-light .navbar-nav .nav-link:hover{
-    color: blue;
-}
-
+/* ----hover buttons--- */
 .brd-btn-grey:hover{
     padding: 1px;
     border: 3px solid #212529;
@@ -37,6 +32,14 @@ header{
 .brd-btn-blue:hover{
     padding: 1px;
     border: 3px solid rgb(0, 102, 255);
+}
+/* -----navbar---- */
+.nav-item .nav-link{
+    color: black;
+}
+
+.nav-item .text-hover-blue:hover{
+    color: blue;
 }
 
 /* ----utilities----- */
@@ -55,13 +58,12 @@ img{
 .bd-0{
     border: 0;
 }
+
 .bandw{
     filter:opacity(0.6);
 }
 
-/* .brd-spacing{
-    margin: 1px;
-} */
+
 /* main */
 
 #jumbo-1{
@@ -77,6 +79,7 @@ img{
 .logo{
     width: 250px;
 }
+
 .h-scale:hover{
     transform: translateY(-20px);
     transition: transform 0.7s;
@@ -102,7 +105,7 @@ img{
 }
 
 .bg-blue{
-    background-color: rgb(15, 15, 112);
+    background-color: #071431;
 }
 /* -----main hover---- */
 
@@ -119,6 +122,7 @@ img{
 .footer-logo{
     width: 100px;
 }
+
 .f-col a{
     text-decoration: none;
 }
